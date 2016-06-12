@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+@import 'jspm:foundation/scss/util/util';
+
+$color-alpha: #545454;
+$color-beta: #B8B8B8;
+
+$foundation-palette: (
+  primary: #4848F0,
+  secondary: #48F09C,
+);
+
+@import 'jspm:foundation/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+
+@import 'jspm:spinners/stylesheets/spinners';
+
+.spin-container {
+    display: block;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.spinner {
+    @include spinner(2em, border-color $dark-gray, background $white);
+}
+
+.header {
+    background-color: $color-beta;
+    color: $white;
+}
+
+.profile-picture {
+    text-align: center;
+    border-radius: 50%;
+    margin: 0.5em;
+    @media #{$medium-up} { 
+        margin: 1em;
+    }
+}
+
+.employment {
+    border-bottom:solid 1px $color-beta;
+    padding:$global-padding;
+
+    &__duration {
+        dt {display: none;}
+        dd {display: inline;}
+    }
+}
+
+
+
+

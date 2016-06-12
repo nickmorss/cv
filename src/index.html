@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicholas Morss</title>
+    <link rel="stylesheet" href="css/app.css" charset="utf-8">
+</head>
+<body>
+<script id="profile-template" type="x-tmpl-mustache">
+    <header class="header row">
+    <div class="columns small-2">
+        <img src="img/{{basics.picture}}" class="profile-picture" />
+    </div>
+    <div class="columns small-10">
+        <h1>{{ basics.name }}</h1>
+        <p><a href="tel:{{basics.phone}}">Call {{basics.phone}}</a><br />
+        <a href="mailto:{{basics.email}}">Email {{basics.email}}</a>
+        </p>
+        </div>
+    </header>
+</script>
+
+
+<script id="work-template" type="x-tmpl-mustache">
+    <h2>Employment History</h2>
+    <section>
+        <div id="work">
+            {{#work}}
+                <article class="employment">
+                    <h3>{{company}}</h3>
+                    <dl class="employment__duration">
+                        <dt>Start date</dt> 
+                        <dd>{{startDate}}</dd>
+                        <dt>End date</dt>
+                        <dd>{{endDate}}</dd>
+                    <p>{{summary}}</p>
+                    {{#highlights.length}}
+                    <ul>
+                        <li>{{highlights}}</li>
+                    </ul>
+                    {{/highlights.length}}
+                </article>
+            {{/work}}
+        </div>
+    </section>
+</script>
+
+<script id="extra-template" type="x-tmpl-mustache">
+<section id="extra">
+{{#extra}}
+    <ul>
+        <li>{{highlights}}</li>
+    </ul>
+{{/extra}}
+</script>
+
+    <div id="target-user">
+    </div>
+
+    <main class="row">
+        <div class="columns small-12" id="target-work">
+            <div class="spin-container">
+                <span class="spinner"></span>
+            </div>
+        </div>
+
+        <br /><br />
+        <p class="text-center"><a href="https://docs.google.com/document/d/1EknSSIm32Z1fC-_Yf8TtMoOR2kJloJSqC2XwDAWOwUs/edit">
+        View full CV</a></p>
+    </main>
+
+
+    <script src="lib/system.js"></script>
+    <script src="config.js"></script>
+    <script>System.import('./js/app')</script>
+</body>
+</html>

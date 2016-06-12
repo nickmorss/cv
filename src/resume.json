@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Nicholas Morss",
+    "label": "Programmer",
+    "picture": "profile.jpg",
+    "email": "mail@nickmorss.com",
+    "phone": "+447771 923 228",
+    "website": "https://nickmorss.com",
+    "summary": "For over 15 years I have delivered web applications for a full spectrum of clients covering eCommerce, Content Management, Intranet and bespoke solutions from Startups to Enterprise levels. I operate in multi faceted rolls with a core focus on User Experience and Interface Development.",
+    "location": {
+      "address": "134 Breakspears Road",
+      "postalCode": "SE4 1UA",
+      "city": "London",
+      "countryCode": "UK",
+      "region": "London"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nickmorss",
+        "url": "https://www.linkedin.com/in/nickmorss"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Tacit Knowledge",
+      "position": "Principal Software Consultant",
+      "website": "https://tacitknowledge.com",
+      "startDate": "2010-08-01",
+      "endDate": "2016-08-01",
+      "summary": "Tech lead for the UI delivery for multiple enterprise programs of work including Office Depot, John Lewis, Moet Hennessy, Mulberry, ghd and Beaverbrooks.",
+      "highlights": [
+        "Hiring and mentoring, internal and client based teams providing line management and leadership.",
+        "Project on boarding thought discovery process leading workshops to gather requirements and derive scope for MVP solutions",
+        "A stalwart of the Tacit Knowledge team enabling us to be awarded SAP hybris EMEA Partner of the year 2014 and SAP hybris Service Delivery Partner of the Year EMEA 2015."
+      ]
+    },
+    {
+      "company": "Substantive Research",
+      "position": "Principal Consultant",
+      "website": "https://substantive.io",
+      "startDate": "2014-05-01",
+      "endDate": "2016-08-01",
+      "summary": "From a simple idea through to a suite of technical solutions I have engaged and worked with Substantive Research, an exciting FinTech London startup."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Skiing",
+        "Sailing",
+        "Cycling"
+      ]
+    }
+  ]
+}
